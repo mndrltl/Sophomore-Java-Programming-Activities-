@@ -1,6 +1,6 @@
 package main;
 
-public class act1Persons 
+public class act1
 {
        public static void main(String[] args) 
     
@@ -14,6 +14,19 @@ public class act1Persons
 
         //Showing details
         
+        p1.displayInfo();
+        p2.displayInfo();
+        System.out.println("\n");
+
+        //Setting the new age after 6 years
+        System.out.println("Their age after 6 years: \n");
+        p1.name = "Jamin Villareal";
+        p1.age = 26;
+        p2.name = "Ashley Gabrielle Alcantara";
+        p2.age = 25;
+
+        //Displaying the new age after 6 years
+
         p1.displayInfo();
         p2.displayInfo();
         System.out.println("\n");
@@ -34,7 +47,9 @@ public class act1Persons
         r1.height = 8;
 
         System.out.println("\nThe area of the rectangle is now: " + r1.getArea());
-        System.out.println("The perimeter of the rectangle is now: " + r1.getPerimeter() + "\n");
+        System.out.println("The perimeter of the rectangle is now: " + r1.getPerimeter());
+        System.out.println("\n");
+        
 
         //#3 Employee: Calculating and updating the salary of the employees.
 
