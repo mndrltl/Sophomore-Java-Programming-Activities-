@@ -42,10 +42,12 @@ public class act1
 
         System.out.println("The area of the rectangle is: " + r1.getArea());
         System.out.println("The perimeter of the rectangle is: " + r1.getPerimeter());
+        System.out.println("\n");
 
         r1.width = 9;
         r1.height = 8;
 
+        System.out.println("Changing width and height (9,8)");
         System.out.println("\nThe area of the rectangle is now: " + r1.getArea());
         System.out.println("The perimeter of the rectangle is now: " + r1.getPerimeter());
         System.out.println("\n");
