@@ -1,19 +1,32 @@
 package main;
 
-public class act1Copy
+public class act1copy
 {
        public static void main(String[] args) 
     
     {   
         //#1 Person: Creating 2 Persons objects
 
-        Person p1 = new Person ("Jamin Villareal", 20);
-        Person p2 = new Person ("Ashley Gabrielle Alcantara", 19);
+        Person p1 = new Person ("Claude Xiana", 3);
+        Person p2 = new Person ("Chris Xian", 9);
 
         System.out.println("\n#1. Class: Person\n");
 
         //Showing details
         
+        p1.displayInfo();
+        p2.displayInfo();
+        System.out.println("\n");
+
+        //Set 
+        System.out.println("Set new age and name: \n");
+        p1.name = "Claude Xiana";
+        p1.age = 9;
+        p2.name = "Chris Xian";
+        p2.age = 15;
+
+        //Displaying the new age after 6 years
+
         p1.displayInfo();
         p2.displayInfo();
         System.out.println("\n");
@@ -29,12 +42,16 @@ public class act1Copy
 
         System.out.println("The area of the rectangle is: " + r1.getArea());
         System.out.println("The perimeter of the rectangle is: " + r1.getPerimeter());
+        System.out.println("\n");
 
-        r1.width = 9;
-        r1.height = 8;
+        r1.width = 12;
+        r1.height = 6;
 
+        System.out.println("Changing width and height (12,6)");
         System.out.println("\nThe area of the rectangle is now: " + r1.getArea());
-        System.out.println("The perimeter of the rectangle is now: " + r1.getPerimeter() + "\n");
+        System.out.println("The perimeter of the rectangle is now: " + r1.getPerimeter());
+        System.out.println("\n");
+        
 
         //#3 Employee: Calculating and updating the salary of the employees.
 
